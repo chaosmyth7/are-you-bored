@@ -90,4 +90,6 @@
 /* === Tailwind 4 Theme Integration === */
 @theme {
   --font-dm-sans: 'DMSans', system-ui, sans-serif;
+
+  --color-background: #0B1C13
 }

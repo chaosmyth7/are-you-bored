@@ -1,4 +1,4 @@
 <script setup lang="ts"></script>
 <template>
-  <div>Feature A</div>
+  <div>Activities</div>
 </template>

@@ -17,6 +17,7 @@
     "create-feature": "node scripts/create-feature.js"
   },
   "dependencies": {
+    "@tabler/icons-vue": "^3.35.0",
     "@tailwindcss/vite": "^4.1.14",
     "@tanstack/vue-query": "^5.90.2",
     "@vueuse/core": "^13.9.0",

@@ -3,11 +3,10 @@ import type { RouteRecordRaw } from "vue-router"
 import { UtilsPageName } from "../models"
 
 const utilRoutes: RouteRecordRaw[] = [
-  // delete or change this later
   {
     path: "/",
-    name: "LandingPage",
-    component: () => import("@/shared/views/LandingPageView.vue"),
+    name: UtilsPageName.HOMEPAGE,
+    component: () => import("@/shared/views/HomeView.vue"),
   },
   {
     path: "/:pathMatch(.*)*",
